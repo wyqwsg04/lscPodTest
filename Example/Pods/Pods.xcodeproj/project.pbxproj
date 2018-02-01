@@ -18,6 +18,8 @@
 		CBA71112A06C305FD201FC62DC7BD08A /* Pods-lscPodTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37FCD2939458767E4BCF8C7E1CD33F2 /* Pods-lscPodTest_Example-dummy.m */; };
 		E25D37692022DE30000C0A6C /* BeeView.h in Headers */ = {isa = PBXBuildFile; fileRef = E25D37672022DE30000C0A6C /* BeeView.h */; };
 		E25D376A2022DE30000C0A6C /* BeeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E25D37682022DE30000C0A6C /* BeeView.m */; };
+		E25D376D2022DFD6000C0A6C /* BeeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E25D376B2022DFD6000C0A6C /* BeeViewController.h */; };
+		E25D376E2022DFD6000C0A6C /* BeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E25D376C2022DFD6000C0A6C /* BeeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		D8212811B5FA9A146BACEB17C329E999 /* Pods-lscPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-lscPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E25D37672022DE30000C0A6C /* BeeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeeView.h; path = lscPodTest/Classes/BeeView.h; sourceTree = "<group>"; };
 		E25D37682022DE30000C0A6C /* BeeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BeeView.m; path = lscPodTest/Classes/BeeView.m; sourceTree = "<group>"; };
+		E25D376B2022DFD6000C0A6C /* BeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BeeViewController.h; path = lscPodTest/Classes/BeeViewController.h; sourceTree = "<group>"; };
+		E25D376C2022DFD6000C0A6C /* BeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BeeViewController.m; path = lscPodTest/Classes/BeeViewController.m; sourceTree = "<group>"; };
 		F37FCD2939458767E4BCF8C7E1CD33F2 /* Pods-lscPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-lscPodTest_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,8 @@
 				E66D74140E9A1E36A1A7A1687C05DE57 /* Support Files */,
 				E25D37672022DE30000C0A6C /* BeeView.h */,
 				E25D37682022DE30000C0A6C /* BeeView.m */,
+				E25D376B2022DFD6000C0A6C /* BeeViewController.h */,
+				E25D376C2022DFD6000C0A6C /* BeeViewController.m */,
 			);
 			name = lscPodTest;
 			path = ../..;
@@ -225,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E25D37692022DE30000C0A6C /* BeeView.h in Headers */,
+				E25D376D2022DFD6000C0A6C /* BeeViewController.h in Headers */,
 				8F2E94FD588E44C4E1295322456F4BBD /* lscPodTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B23347C64CC18194D1954D08D3EE4BC /* lscPodTest-dummy.m in Sources */,
+				E25D376E2022DFD6000C0A6C /* BeeViewController.m in Sources */,
 				E25D376A2022DE30000C0A6C /* BeeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
