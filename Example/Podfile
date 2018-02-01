@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'lscPodTest_Example' do
+  pod 'lscPodTest', :path => '../'
+
+  target 'lscPodTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
